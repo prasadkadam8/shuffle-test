@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+    padding: 10px;
+    text-align: center;
+}
+.action-area button {
+    background: #72C3DC;
+    display: block;
+    width: 109px;
+    height: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.wrapper {
+    display: flex;
+}
+#buttonarea{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+#buttonarea div {
+    width: 33%;
+    height: 147px;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#buttonarea div:first-child{
+    background: #2B8EAD;
+}
+#buttonarea div:nth-child(2){
+    background: #333333;
+}
+#buttonarea div:nth-child(3){
+    background: #6F98A8;
+}
+#buttonarea div:nth-child(4){
+    background: #BFBFBF;
+}
+#buttonarea div:nth-child(5){
+    background: #EFEFEF;
+}
+#buttonarea div:nth-child(6){
+    background: #2F454E;
+}
+#buttonarea div:nth-child(7){
+    background: #72C3DC;
+}
+#buttonarea div:nth-child(8){
+    background: #6F98A8;
+}
+#buttonarea div:nth-child(9){
+    background: #333333;
+}
+.action-area {
+    width: 200px;
+    text-align: center;
+    text-align: -webkit-center;
+}
+footer {
+    text-align: center;
+}
+.action-area.bottom {
+    display: blocak;
+}
+.action-area.top {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        display: block;
+    }
+    .action-area {
+        width: 100%;
+    }
+    #buttonarea {
+      display: block;
+    }
+    #buttonarea div {        
+        width: 100%;
+        height: 25px;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 2px;
+    }
+    #buttonarea div:first-child{
+        border-left: 10px solid #2B8EAD;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(2){
+        border-left: 10px solid #333333;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(3){
+        border-left: 10px solid #6F98A8;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(4){
+        border-left: 10px solid #BFBFBF;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(5){
+        border-left: 10px solid #EFEFEF;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(6){
+        border-left: 10px solid #2F454E;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(7){
+        border-left: 10px solid #72C3DC;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(8){
+        border-left: 10px solid #6F98A8;
+        background: #dcdcdc;
+    }
+    #buttonarea div:nth-child(9){
+        border-left: 10px solid #333333;
+        background: #dcdcdc;
+    }
+    .action-area.bottom {
+        display: none;
+    }
+    .action-area.top {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .action-area.top button {
+        margin-left: 10px;
+        border: none;
+    }
+  }
